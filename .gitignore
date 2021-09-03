@@ -1,0 +1,13 @@
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.log
+*.xml
+*.toc
+*.gz
+swputhesis.pdf
+
