@@ -119,7 +119,7 @@
     \CJKunderline[thickness=1bp, format=\color[rgb]{0,0.424,0.647}, textformat=\color[rgb]{0,0.424,0.647}]{#3 \hfill}}%
 }
 \newcommand{\swpu@makezhtitle}{%
-{\zihao{5}\sffamily\selectfont
+{\zihao{5}\sffamily\bfseries\selectfont
 $\vcenter{\hbox{\includegraphics[height=1.94cm]{swpu_logo.jpg}}}$%
 \hspace{0.68cm}%
 图书分类号：\swpu@clc\hfill%
