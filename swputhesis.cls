@@ -45,6 +45,7 @@
 \RequirePackage{booktabs} % 设置三线表
 \RequirePackage{tocloft} % 设置目录格式
 \RequirePackage{enumitem} % 设置列表格式
+\RequirePackage{etoolbox} % dev tool
 \RequirePackage[style=gb7714-2015]{biblatex} % 参考文献工具（使用国标）
 \def\swpu@def@prm#1#2{%
   \expandafter\gdef\csname #1\endcsname##1{%
@@ -313,6 +314,8 @@ font = small,
 labelsep = zhspace,
 skip = \swpu@linegap
 }
+% 设置表格内字体为5号
+\patchcmd\@floatboxreset{\normalsize}{\small}{}{Failed to set float font}
 \setlength{\intextsep}{\swpu@linegap}
 \setlength{\textfloatsep}{\swpu@linegap}
 \setlength{\floatsep}{\swpu@linegap}
