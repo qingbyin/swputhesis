@@ -10,4 +10,6 @@
 *.toc
 *.gz
 swputhesis.pdf
+.git
+.vim
 
