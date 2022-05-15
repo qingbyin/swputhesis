@@ -105,10 +105,11 @@
 \setmonofont{Courier New}
 % 利用 \pkg{ctex} 宏包设置中文字体。设置正文字体为思源宋体(SC:简体)；
 % 设置 \cs{song} 为思源宋体； 设置 \cs{hei} 为思源黑体。
-\setCJKmainfont{Noto Serif CJK SC}
-\setCJKsansfont{Noto Sans CJK SC}
-\setCJKfamilyfont{song}{Noto Serif CJK SC}
-\setCJKfamilyfont{hei}{Noto Sans CJK SC}
+\setCJKmainfont{Source Han Serif CN}
+\setCJKsansfont{Source Han Sans CN}
+\setCJKmonofont{Source Han Sans CN} % 避免 warning
+\setCJKfamilyfont{song}{Source Han Serif CN}
+\setCJKfamilyfont{hei}{Source Han Sans CN}
 
 % ^^A ==========================================================================
 % 行距:1.25倍
